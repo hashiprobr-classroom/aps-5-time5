@@ -1,8 +1,5 @@
 package br.edu.insper.desagil.pi.cobasi;
 
-import java.time.LocalDate;
-
-
 public class Historico {
     private Tutor tutor;
     private Animal animal;
