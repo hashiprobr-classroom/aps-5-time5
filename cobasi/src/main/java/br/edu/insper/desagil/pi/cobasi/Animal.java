@@ -2,19 +2,31 @@ package br.edu.insper.desagil.pi.cobasi;
 
 import java.time.LocalDate;
 
-public class Animal {
+public abstract class Animal {
     private String nome;
-    private int tipo;
     private LocalDate dataNascimento;
     private double peso;
-    private String extra;
 
 
-    public Animal(String nome, int tipo, LocalDate dataNascimento, double peso, String extra) {
+
+    public Animal(String nome, LocalDate dataNascimento, double peso) {
         this.nome = nome;
-        this.tipo = tipo;
         this.dataNascimento = dataNascimento;
         this.peso = peso;
-        this.extra = extra;
     }
+
+    public String getNome () {
+        return nome;
+    }
+
+    public LocalDate getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public abstract String resumo();
+
 }
