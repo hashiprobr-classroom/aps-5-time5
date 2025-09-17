@@ -14,6 +14,5 @@ public class Cobra extends Animal {
         public String resumo() {
             return "Animal" + getNome() + "\n" + "Nascimento: " +getDataNascimento().toString() + "\n" + "Peso: " + getPeso() + "kg\n" + "Venenosa: " + venenosa + "\n";
         }
-
 }
 

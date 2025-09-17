@@ -14,5 +14,4 @@ public class Elefante extends Animal {
     public String resumo() {
         return "Animal" + getNome() + "\n" + "Nascimento: " +getDataNascimento().toString() + "\n" + "Peso: " + getPeso() + "kg\n" + "Comida: " + pesoComida + "\n";
     }
-
 }

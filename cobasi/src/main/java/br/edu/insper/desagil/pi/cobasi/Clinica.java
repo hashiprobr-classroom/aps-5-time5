@@ -17,6 +17,4 @@ public class Clinica {
     public List<Historico> getHistoricos() {
         return historicos;
     }
-
-
 }
