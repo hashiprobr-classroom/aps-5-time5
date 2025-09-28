@@ -13,5 +13,6 @@ public class Gato extends Animal {
     @Override
     public String resumo() {
         return "Animal" + getNome() + "\n" + "Nascimento: " +getDataNascimento().toString() + "\n" + "Peso: " + getPeso() + "kg\n" + "Doença: " + doenca + "\n";
+
     }
 }
